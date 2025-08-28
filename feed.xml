@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0"  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title> Binary Codex</title>
     <link>https://binarycodex0.github.io</link>
@@ -194,7 +194,7 @@ class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb6-1"><a href="#c
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co">// now our numbers[] looks like this: numbers[5] = { 0, 1, 2, 100, 3}</span></span></code></pre></div>
 </body>
 </html>
-  ]]>
+  ]]
 </content:encoded>	  
       <pubDate>Wed, 27 Aug 2025 12:00:00 +0300</pubDate>
       <guid  isPermaLink="true">https://binarycodex0.github.io/Arrays.html</guid>
