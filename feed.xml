@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <title> Binary Codex</title>
-    <link>https://binarycodex0.github.io/index.html</link>
+    <link>https://binarycodex0.github.io</link>
     <description>A weirdo's blog</description>
     <language>en-us</language>
 
@@ -11,7 +11,7 @@
       <link>https://binarycodex0.github.io/Arrays.html</link>
       <description> Notes for array </description>
       <pubDate>Wed, 27 Aug 2025 12:00:00 +0300</pubDate>
-      <guid>https://binarycodex0.github.io/Arrays.html</guid>
+      <guid  isPermaLink="true">https://binarycodex0.github.io/Arrays.html</guid>
     </item>
 
   </channel>
