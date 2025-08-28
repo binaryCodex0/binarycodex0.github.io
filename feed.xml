@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title> Binary Codex</title>
+    <link>https://binarycodex0.github.io/index.html</link>
+    <description>A weirdo's blog</description>
+    <language>en-us</language>
+
+    <item>
+      <title>Array</title>
+      <link>https://binarycodex0.github.io/Arrays.html</link>
+      <description> Notes for array </description>
+      <pubDate>Wed, 28 Aug 2025 12:00:00 +0300</pubDate>
+      <guid>https://yourdomain.com/post1.html</guid>
+    </item>
+
+  </channel>
+</rss>
