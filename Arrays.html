@@ -113,9 +113,8 @@ the array by the size of a single element:</p>
 class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> arrLength <span class="op">=</span> <span class="kw">sizeof</span><span class="op">(</span>numbers<span class="op">)</span> <span class="op">/</span> <span class="kw">sizeof</span><span class="op">(</span>numbers<span class="op">[</span><span class="dv">0</span><span class="op">]);</span> <span class="co">// prints number of elements in numbers[].</span></span></code></pre></div>
 <h3 id="inserting-an-element-to-an-array">Inserting an element to an
 array:</h3>
-<p>It is not best practice to insert an element into an array since you
-have to shift elements. If there’s no unoccupied space in the array, you
-will have to overwrite data, which means losing data.</p>
+<p>If there’s no unoccupied space in the array, you will have to
+overwrite data, which means losing data.</p>
 <p>First, let’s assume we have enough space:</p>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> numbers<span class="op">[</span><span class="dv">10</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,};</span> </span>
