@@ -65,48 +65,12 @@ table, tbody, tr, td	{
 
 
 
-	/* begin header type */	/* 7 - humanist sans b */
+	/* begin header type */	/* 1 - humanist sans a */
 		
 h1	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
 	font-size-adjust:	.53;
 	font-size:	2em;
-	font-weight:	400;
-	font-style:	normal;
-	text-decoration:	none;
-	word-spacing:	normal;
-	letter-spacing:	normal;
-	text-transform:	none;
-	}	
-		
-h2	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
-	font-size-adjust:	.53;
-	font-size:	1.75em;
-	font-weight:	400;
-	font-style:	normal;
-	text-decoration:	none;
-	word-spacing:	normal;
-	letter-spacing:	normal;
-	text-transform:	none;
-	}	
-		
-h3	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
-	font-size-adjust:	.53;
-	font-size:	1.58em;
-	font-weight:	400;
-	font-style:	normal;
-	text-decoration:	none;
-	word-spacing:	normal;
-	letter-spacing:	normal;
-	text-transform:	none;
-	}	
-		
-h4	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
-	font-size-adjust:	.53;
-	font-size:	1.33em;
 	font-weight:	500;
 	font-style:	normal;
 	text-decoration:	none;
@@ -115,8 +79,44 @@ h4	{
 	text-transform:	none;
 	}	
 		
+h2	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.75em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h3	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.58em;
+	font-weight:	600;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h4	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.33em;
+	font-weight:	600;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
 h5, dt	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
 	font-size-adjust:	.53;
 	font-size:	1.17em;
 	font-weight:	600;
@@ -128,7 +128,7 @@ h5, dt	{
 	}	
 		
 h6	{	
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
 	font-size-adjust:	.53;
 	font-size:	1em;
 	font-weight:	700;
@@ -144,7 +144,7 @@ tfoot, thead	{
 	word-spacing:	normal;
 	letter-spacing:	normal;
 	text-transform:	none;
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-family:	Verdana, Myriad Web, Syntax, sans-serif;
 	font-size-adjust:	.53;
 	}	
 		
@@ -155,7 +155,7 @@ th	{
 	word-spacing:	normal;
 	letter-spacing:	normal;
 	text-transform:	none;
-	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-family:	Verdana, Myriad Web, Syntax, sans-serif;
 	font-size-adjust:	.53;
 	}	
 		
@@ -168,7 +168,7 @@ hr	{
 
 
 
-	/* begin affordances */	/* 3 - mint reverse */
+	/* begin affordances */	/* 5 - midnight */
 		
 a, address, blockquote, body, cite, code, dd, del, dfn,		
 div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, iframe, img, kbd,		
@@ -179,35 +179,35 @@ abbr, acronym, bdo, button, fieldset, ins, label	{
 	letter-spacing:	normal;
 	text-transform:	none;
 	text-decoration:	none;
-	border-color:	#ccc;
+	border-color:	#CC9;
 	border-style:	none;
 	}	
 		
 body	{	
-	color:	#D0FFD0;
-	background:	#212121;
+	color:	#CC9;
+	background:	black;
 	}	
 		
 em	{	
 	font-style:	normal;
 	font-weight:	bold;
-	color:	#D0FFD0;
-	background:	#212121;
+	color:	#CC9;
+	background:	black;
 	}	
 		
 strong	{	
 	font-style:	italic;
-	background:	#212121;
+	background:	black;
 	font-weight:	bold;
-	color:	#D0FFD0;
+	color:	#CC9;
 	}	
 		
 em strong, strong em	{	
 	text-transform:	uppercase;
 	font-style:	normal;
 	font-weight:	bolder;
-	background:	#212121;
-	color:	#D0FFD0;
+	background:	black;
+	color:	#CC9;
 	}	
 		
 b	{
@@ -222,7 +222,7 @@ i	{
 	text-transform:	none;
 	font-style:	normal;
 	font-weight:	bolder;
-	background:	yellow;
+	background:	#ff6;
 	color:	black;
 	}	
 		
@@ -251,12 +251,12 @@ acronym	{
 	}	
 		
 h1, h2, h3, h4, h5, h6, dt, th, thead, tfoot	{	
-	color:	rgb(245,245,245);
-	background:	#212121;
+	color:	#6CC;
+	background:	black;
 	}	
 		
 hr	{	
-	color:	#ccc;
+	color:	#CC9;
 	}	
 		
 #colophon	{	
@@ -264,45 +264,45 @@ hr	{
 	}	
 		
 col, colgroup, table, tbody, td, tr	{	
-	color:	#D0FFD0;
+	color:	#CC9;
 	text-decoration:	none;
-	border-color:	#ccc;
+	border-color:	#CC9;
 	border-style:	none;
-	background:	#212121;
+	background:	black;
 	}	
 		
 a:link	{	
 	text-decoration:	none;
 	font-weight:	bold;
-	color:	#F60;
-	background:	#212121;
+	color:	#ff6;
+	background:	black;
 	}	
 		
 a:visited	{	
 	text-decoration:	none;
 	font-weight:	bold;
-	color:	#C96;
-	background:	#212121;
+	color:	#FC0;
+	background:	black;
 	}	
 		
 a:active	{	
 	text-decoration:	none;
 	font-weight:	bold;
-	color:	#ffc;
-	background:	#212121;
+	color:	#ff6;
+	background:	#663;
 	}	
 		
 a:hover	{	
 	text-decoration:	none;
-	color:	#FC0;
-	background:	#212121;
+	color:	black;
+	background:	#CC9;
 	}	
 		
 a.offsite	{	
 	text-decoration:	none;
 	font-weight:	normal;
-	color:	#F60;
-	background:	#212121;
+	color:	#ff6;
+	background:	black;
 	}	
 		
 	/* end affordances */	
@@ -555,7 +555,7 @@ td, th	{
 
 
 
-	/* begin horizontal */	/* 1 - compact */
+	/* begin horizontal */	/* 2 - inset */
 		
 a, address, blockquote, cite, code, dd, del, dfn,		
 div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, iframe, img, kbd,		
@@ -578,7 +578,7 @@ address, blockquote, dl, fieldset, form, ol,
 p, ul,  dir, hr, menu, pre	{	
 	margin-left:	0;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -598,7 +598,7 @@ div > p:first-child, body > p:first-child, td > p:first-child	{
 h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, div + p, p.initial	{	
 	margin-left:	0;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -669,7 +669,7 @@ h6	{
 p	{	
 	margin-left:	0;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -679,7 +679,7 @@ p	{
 blockquote	{	
 	margin-left:	1.58em;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -688,7 +688,7 @@ blockquote	{
 address	{	
 	margin-left:	0;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -697,7 +697,7 @@ address	{
 pre	{	
 	margin-left:	0;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
@@ -738,16 +738,16 @@ ul ul, ol ol, li address, li dl, li ol, li p, li ul, li dir, li hr, li menu, li 
 	border-left:	0;
 	border-right:	0;
 	}
-			
+		
 hr	{	
-	margin-left:	0;
+	margin-left:	2em;
 	margin-right:	0;
-	padding-left:	0;
+	padding-left:	1.58em;
 	padding-right:	0;
 	border-left:	0;
 	border-right:	0;
 	text-align:	left;
-	width:	100%;
+	width:	12em;
 	}	
 		
 center	{	
@@ -792,11 +792,11 @@ caption	{
 
 
 
-	/* begin body box */	/* 5 - 'ninths symmetric' */
+	/* begin body box */	/* 2 - 'ninths asymmetric' */
 
 body	{
 	margin-top:	1.58em;
-	margin-left:	11%;
+	margin-left:	22%;
 	margin-right:	8%;
 	margin-bottom:	1.58em;
 	padding-top:	0;
@@ -810,7 +810,3 @@ body	{
 	width:	auto;
 	}
 	/* end body box */
-
-
-
-
